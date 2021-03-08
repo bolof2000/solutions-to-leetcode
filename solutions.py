@@ -154,7 +154,12 @@ class Node(object):
         self.val = val 
         self.next = next
         
-        
+   
+   
+   
+"""
+   Solutions to linked Lists questions beqin here . Test cases will be found in the tests.py 
+"""     
 class SolutionsToLinkListQuestions(object):
     
     def revereLinkedlink(self,head):  
@@ -220,12 +225,19 @@ class SolutionsToLinkListQuestions(object):
             
         return slow 
             
+            
+    def removeNthNode(self,head):   
+        
+        pass 
+    
+    
+    def removeElements(self,head,val):   
+        
+        pass  
+    
+    
+    
     
       
     
-    
-    
         
-        
-                 
-                
