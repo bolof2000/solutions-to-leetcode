@@ -1,0 +1,486 @@
+versions pytest-6.2.2, py-1.10.0, python-3.8.2.final.0
+cwd=/Volumes/DevelopmentEnv/Python-Base/codeProSolutions
+args=('--log-file', '/Volumes/DevelopmentEnv/Python-Base/codeProSolutions/pytest_bdd_logs.log', '--log-file-level', 'DEBUG', '--log-file-format', '%(asctime)s-[%(levelname)8s]-%(message)s-(%(filename)s:%(lineno)s)', '--log-file-date-format', '%Y-%m-%d_%H:%M:%S', '--debug', '/Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x106620a90>
+    pytest_plugin_registered [hook]
+        plugin: <Session codeProSolutions exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x106620a90>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1067458e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1067450d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x106620a90>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x106745be0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x106620a90>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=10 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=5 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1067458e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1067450d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x106745be0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x105511e50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x106734ee0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x106620a90>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/bolofbaba/Library/Python/3.8/lib/python/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=10 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=5 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1067458e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1067450d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x106745be0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x105511e50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x106734ee0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x106709df0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10605e3a0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x106620a90>
+          startdir: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions
+      finish pytest_report_header --> [['rootdir: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions'], ['using: pytest-6.2.2 pylib-1.10.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions/__init__.py
+                config: <_pytest.config.Config object at 0x106620a90>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions/__init__.py
+                parent: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions/__init__.py
+                  parent: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Package codeProSolutions> [hook]
+            finish pytest_collect_file --> [<Package codeProSolutions>] [hook]
+            pytest_collect_file [hook]
+                path: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py
+                parent: <Package codeProSolutions>
+              pytest_pycollect_makemodule [hook]
+                  path: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py
+                  parent: <Package codeProSolutions>
+              finish pytest_pycollect_makemodule --> <Module tests.py> [hook]
+            finish pytest_collect_file --> [<Module tests.py>] [hook]
+          matchnodes [<Module tests.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module tests.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests.py>
+      early skip of rewriting module: codeProSolutions [assertion]
+      find_module called for: codeProSolutions.tests [assertion]
+      matched test file (was specified on cmdline): '/Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py' [assertion]
+      found cached rewritten pyc for /Volumes/DevelopmentEnv/Python-Base/codeProSolutions/tests.py [assertion]
+      early skip of rewriting module: unittest [assertion]
+      early skip of rewriting module: unittest.result [assertion]
+      early skip of rewriting module: unittest.util [assertion]
+      early skip of rewriting module: unittest.async_case [assertion]
+      early skip of rewriting module: asyncio [assertion]
+      early skip of rewriting module: asyncio.base_events [assertion]
+      early skip of rewriting module: concurrent [assertion]
+      early skip of rewriting module: concurrent.futures [assertion]
+      early skip of rewriting module: concurrent.futures._base [assertion]
+      early skip of rewriting module: asyncio.constants [assertion]
+      early skip of rewriting module: asyncio.coroutines [assertion]
+      early skip of rewriting module: asyncio.base_futures [assertion]
+      early skip of rewriting module: asyncio.format_helpers [assertion]
+      early skip of rewriting module: asyncio.log [assertion]
+      early skip of rewriting module: asyncio.events [assertion]
+      early skip of rewriting module: contextvars [assertion]
+      early skip of rewriting module: _contextvars [assertion]
+      early skip of rewriting module: asyncio.exceptions [assertion]
+      early skip of rewriting module: _asyncio [assertion]
+      early skip of rewriting module: asyncio.base_tasks [assertion]
+      early skip of rewriting module: asyncio.futures [assertion]
+      early skip of rewriting module: asyncio.protocols [assertion]
+      early skip of rewriting module: asyncio.sslproto [assertion]
+      early skip of rewriting module: asyncio.transports [assertion]
+      early skip of rewriting module: asyncio.staggered [assertion]
+      early skip of rewriting module: asyncio.locks [assertion]
+      early skip of rewriting module: asyncio.tasks [assertion]
+      early skip of rewriting module: asyncio.trsock [assertion]
+      early skip of rewriting module: asyncio.runners [assertion]
+      early skip of rewriting module: asyncio.queues [assertion]
+      early skip of rewriting module: asyncio.streams [assertion]
+      early skip of rewriting module: asyncio.subprocess [assertion]
+      early skip of rewriting module: asyncio.unix_events [assertion]
+      early skip of rewriting module: asyncio.base_subprocess [assertion]
+      early skip of rewriting module: asyncio.selector_events [assertion]
+      early skip of rewriting module: unittest.case [assertion]
+      early skip of rewriting module: difflib [assertion]
+      early skip of rewriting module: unittest.suite [assertion]
+      early skip of rewriting module: unittest.loader [assertion]
+      early skip of rewriting module: unittest.main [assertion]
+      early skip of rewriting module: unittest.runner [assertion]
+      early skip of rewriting module: unittest.signals [assertion]
+      early skip of rewriting module: solutions [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests.py' lenresult=0 outcome='failed'> [hook]
+      pytest_exception_interact [hook]
+          node: <Module tests.py>
+          call: <CallInfo when='collect' excinfo=<ExceptionInfo error('bad escape \\E at position 1') tblen=11>>
+          report: <CollectReport 'tests.py' lenresult=0 outcome='failed'>
+      finish pytest_exception_interact --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests.py' lenresult=0 outcome='failed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+          config: <_pytest.config.Config object at 0x106620a90>
+          items: []
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x106620a90>
+            startdir: /Volumes/DevelopmentEnv/Python-Base/codeProSolutions
+            items: []
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session codeProSolutions exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+    pytest_keyboard_interrupt [hook]
+        excinfo: <ExceptionInfo Interrupted('1 error during collection') tblen=13>
+    finish pytest_keyboard_interrupt --> [] [hook]
+    pytest_sessionfinish [hook]
+        session: <Session codeProSolutions exitstatus=<ExitCode.INTERRUPTED: 2> testsfailed=1 testscollected=0>
+        exitstatus: ExitCode.INTERRUPTED
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x105511e50>
+          exitstatus: ExitCode.INTERRUPTED
+          config: <_pytest.config.Config object at 0x106620a90>
+        pytest_report_teststatus [hook]
+            report: <CollectReport 'tests.py' lenresult=0 outcome='failed'>
+            config: <_pytest.config.Config object at 0x106620a90>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x106620a90>
+    finish pytest_unconfigure --> [] [hook]
